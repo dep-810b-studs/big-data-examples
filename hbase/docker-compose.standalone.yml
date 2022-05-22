@@ -66,6 +66,18 @@ services:
     env_file:
       - ./hbase-standalone.env
 
+  hue:
+      image: gethue/hue:2.5
+      hostname: hue
+      container_name: hue
+      dns: 8.8.8.8
+      ports:
+      - "8888:8888"
+      volumes:
+        - ./hue.ini:/usr/share/hue/desktop/conf/z-hue.ini
+      depends_on:
+        - "hbase"
+
 volumes:
   hadoop_namenode:
   hadoop_datanode:
