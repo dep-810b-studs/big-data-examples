@@ -31,7 +31,6 @@
 ## Источники:
 - https://hbase.apache.org/book.html#quickstart
 - https://gethue.com/blog/querying-live-kafka-data-in-apache-hbase-with-phoenix/
-- https://www.youtube.com/watch?v=0Tzl6qMPWQo
 - Локальный запуск hadoop в docker: https://www.youtube.com/watch?v=ny2w5zImqvA&t=339s
 - https://www.youtube.com/watch?v=WLVngOrhtnU&list=PLrCZzMib1e9rPxMIgPri9YnOpvyDAL9HD&index=8
 - https://www.youtube.com/watch?v=CJdz9GMsNdE
